@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/Images/icon.png">
+    <title>Responsive Nav Bar</title>
+    <script  src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id = "open-sidebar" onclick="openSide()">
+                        <img src="/Images/menu-bar.png" alt="Menu" width="30" height="30" viewBox = "0 -960 960 960">
+                    </button>
+        <nav class="nav-bar" id="navbar">
+            
+            <ul>
+                <li>
+                    <button id ="close-sidebar" onclick="closeSide()">
+                        <img src="/Images/delete.png" alt="Delete" width="30" height="30" viewBox = "0 -960 960 960">
+                    </button>
+                </li>
+                <li class="nav-home"><a href="index.html" >Home</a></li>
+                <li><a href="about.html" class="active-link">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="com.html">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <h1>This is About</h1>
+        </div>
+    </main> 
+</body>
+</html>
